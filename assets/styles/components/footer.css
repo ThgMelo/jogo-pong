@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    gap: 1rem;
+    font-size: .8rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.footer__redes{
+    display: flex;
+    gap: 1rem;
+}
+
+.icone-git:before{
+    content: "";
+    background-image: url(../../images/footer/github.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1rem;
+    height: 1rem;
+}

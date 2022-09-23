@@ -1,0 +1,9 @@
+.main{
+    flex-grow: 1;
+    height: 100%;
+}
+
+.main__game{
+    margin-top: auto;
+    margin-bottom: auto;
+}
