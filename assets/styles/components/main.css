@@ -1,9 +1,59 @@
 .main{
+    display: flex;
     flex-grow: 1;
     height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main__placar{
+    padding: .5rem;
+    border: 2px solid var(--laranja);
+    border-radius: 5rem;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.main__placar--item{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.main__placar--item--jogador{
+    font-weight: 600;
+    color: var(--vermelho);
+    font-size: 1rem;
+}
+
+.main__placar--placar{
+    background-color: var(--laranja);
+    padding: .5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.main__placar--separacao{
+    height: 100%;
+    width: 3px;
+    background-color: var(--vermelho);
 }
 
 .main__game{
     margin-top: auto;
     margin-bottom: auto;
+    height: 400px;
+}
+
+.main__status img{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
 }

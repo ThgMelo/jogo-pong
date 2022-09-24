@@ -16,16 +16,33 @@
             <h1 class="header__titulo">Pong</h1>
         </header>
         <main class="main">
+            <section class="main__placar">
+                <div class="main__placar--item">
+                    <h2 class="main__placar--item--jogador">Sua pontuação</h2>
+                    <p class="main__placar--placar" id="pontuacaoJogador">0</p>
+                </div>
+                <div class="main__placar--separacao"></div>
+                <div class="main__placar--item">
+                    <p class="main__placar--placar" id="pontuacaoOponente">0</p>
+                    <h2 class="main__placar--item--jogador">Oponente Virtual</h2>
+                </div>
+            </section>
             <canvas class="main__game" width="600" height="400" id="tela"></canvas>
+            <section class="main__status">
+                <img src="./assets/images/main/play-fill.svg" alt="Play" id="play">
+                <img src="./assets/images/main/pause-fill.svg" alt="Pause" id="pause">
+            </section>
         </main>
         <footer class="footer">
             <p>Thiago Melo &copy; 2022</p>
             <ul class="footer__redes">
-                <li>
-                    <a href="#" class="footer__redes--item icone-git">GitHub</a>
+                <li class="footer__redes--item">
+                    <img src="./assets/images/footer/github.svg" alt="Logo github">
+                    <a href="https://github.com/ThgMelo" target="_blank" class="footer__redes--item-link icone-git">GitHub</a>
                 </li>
-                <li>
-                    <a href="#" class="footer__redes--item icone-linkedIn">LinkedIn</a>
+                <li class="footer__redes--item">
+                    <img src="./assets/images/footer/linkedin.svg" alt="Logo linkedin">
+                    <a href="#" class="footer__redes--item-link  icone-linkedIn">LinkedIn</a>
                 </li>
             </ul>
         </footer>

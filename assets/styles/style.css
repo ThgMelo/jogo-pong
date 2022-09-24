@@ -10,4 +10,10 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    max-width: 100vw;
+}
+
+:root{
+    --laranja: #f2a800;
+    --vermelho: #ca1000;
 }

@@ -1,9 +1,10 @@
 .footer{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     font-size: .8rem;
     font-weight: 400;
     padding: 1rem;
+    color: var(--vermelho);
 }
 
 .footer__redes{
@@ -11,11 +12,13 @@
     gap: 1rem;
 }
 
-.icone-git:before{
-    content: "";
-    background-image: url(../../images/footer/github.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1rem;
-    height: 1rem;
+.footer__redes--item{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.footer__redes--item-link{
+    text-decoration: none;
+    color: var(--vermelho);
 }
